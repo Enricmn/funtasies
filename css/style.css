@@ -75,6 +75,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.nav-link{
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
 .layout_padding {
   padding: 75px 0;
 }
