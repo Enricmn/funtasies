@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const isValid = await verifyCredentials(email, password);
     if (isValid) {
       errorMessage.classList.remove("visible");
-      window.location.href = "correctlogin.html";
+      window.location.href = "index.html";
     } else {
       errorMessage.classList.add("visible");
     }
